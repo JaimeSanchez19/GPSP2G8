@@ -1,4 +1,4 @@
-build:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Descargar el código del repositorio
@@ -19,6 +19,3 @@ build:
         with:
           name: app-jar
           path: target/app.jar
- with:
- name: app-jar
- path: target/app.jar
